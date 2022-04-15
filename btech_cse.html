@@ -3,13 +3,25 @@
 <head>
   <title>BTECH CSE</title>
   <link href="subjectstyle.css" rel="stylesheet">
+  
 </head>
 <body>
+  <section class="header">
+    <nav>
+        <div id="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="text-box" >
+        <h2 style="color: white;">Study <span>HUB</span></h2>
+    </div>
+</section>
   <header id="header">
     <input type="text" id="myText" value="find your course..."><button onclick="myFunction()">Go</button>
-    <nav id="navbar" class="navbar">
-      <a href="javascript:void(0)" id="links" class="closebtn" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></a>
-      
+    <nav id="navbar" class="navbar">    
       <a href="#year1" id="links" >Year 1</a>
       <a href="#year2" id="links" >Year 2</a>
       <a href="#year3" id="links" >Year 3</a>
@@ -17,11 +29,22 @@
     </nav>
     
   </header>
+ 
 
 
   <main id="main">
     
     <section id="year1">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <h2>YEAR-1</h2>
       <div class="bb">
         <div class="box" id="java">
@@ -41,7 +64,7 @@
         </div>
       </div>
       <section id="year2">
-        <h2>YEAR-1</h2>
+        <h2>YEAR-2</h2>
         <div class="bb">
           <div class="box" id="python">
             <a href="ds.html"><i class="fa-brands fa-python" style="font-size: 700%;"></i></a>
@@ -60,7 +83,7 @@
           </div>
         </div>
         <section id="year3">
-          <h2>YEAR-1</h2>
+          <h2>YEAR-3</h2>
           <div class="bb">
             <div class="box" id="micro processor">
               <a href="ds.html"> <i class="fa-solid fa-microchip" style="font-size: 500%;"></i></a>
@@ -79,7 +102,7 @@
             </div>
           </div>
           <section id="year4">
-            <h2>YEAR-1</h2>
+            <h2>YEAR-4</h2>
             <div class="bb">
               <div class="box" id="app aevelopment">
                 <i class="fa-brands fa-android" style="font-size: 500%;"></i>
@@ -102,11 +125,7 @@
 
   </script>
   
-  <script>  
-  function toggleNav() {
-    document.getElementById("header").style.width="0";
-    document.getElementById("main").style.marginLeft= "1";
-  }
+  <script> 
   function myFunction() {
     var x = document.getElementById("myText").value;
     document.getElementById(x).scrollIntoView({behavior: 'smooth'});
@@ -114,4 +133,32 @@
   }
   </script>
 </body>
+<footer class="foot">
+  <div class="fdiv">
+     <span class="fsp"> FOLLOW US </span>
+     <span class="fsp"> <i class="fa-brands fa-facebook-square"></i></span>
+     <span class="fsp"> <i class="fa-brands fa-instagram"></i></span>
+     <span class="fsp"> <i class="fa-brands fa-twitter-square"></i></span>  
+  </div>
+  
+   <div class="term">
+     <div class="t"> <span  style="margin-left: 2px; font-weight: bold;font-size: 18px; ">Contact Us</span>
+       <ul class="tul"> <i class="fa-solid fa-location-dot"></i> &nbsp;National Institute of Technology,Warangal</ul>
+      <ul class="tul"><i class="fa-solid fa-mobile-screen-button">  </i> &nbsp;+91 9872635747</ul>
+      <ul class="tul"> <i class="fa-solid fa-at">  </i> &nbsp;contact@studyHUB.edu</ul>
+      <ul class="tul"><i class="fa-solid fa-comments"></i> &nbsp;Feedback</ul>
+    </div>
+    <div class="t"> <span  style="margin-left: 2px; font-weight: bold;font-size: 18px;">Important Links</span>
+      <ul class="tul">Terms</ul>
+     <ul class="tul">Privacy Policy</ul>
+     <ul class="tul"> Cookie Policy</ul>
+     <ul class="tul"> About Us</ul>
+   </div>
+   </div>
+   
+   <div class="d">
+    <span class="xf"> &copy; 2022 StudyHUB.inc</span>
+  </div>
+      
+</footer>
 </html>
