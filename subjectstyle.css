@@ -34,6 +34,7 @@ body {
   display: inline-block;
   padding: 8px 12px;
   position: relative;
+  font-weight: bolder;
 }
 
 #nav-links ul li a {
@@ -73,8 +74,12 @@ a{
 }
 
 #text-box h2{
+  font-family: 'sans-serif';
+  font-style: italic;
+  text-decoration: none;
   font-size: 42px;
   word-spacing: 20px;
+  font-weight: bolder;
 }
 a:hover {
   color: #37b3ed;
@@ -87,7 +92,7 @@ h2 {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #0c4ca5;
+  color: #0d0d0d;
   text-decoration: underline;
 }
 
@@ -99,7 +104,10 @@ h2 {
   width: 20%;
   padding: 0 15px;
   padding-top: 10%;
-  background: #01142c;
+ 
+  background-image: linear-gradient(rgba(23, 63, 182, 0.916),rgb(236, 231, 231), rgba(47, 101, 195, 0.7));
+  
+
 }
 
 #navbar .line li{
@@ -110,7 +118,7 @@ h2 {
   margin: 30px;
 }
 #navbar .line li:hover{
-  background-color: #0096db;
+  background-color: #0e0e0f;
   padding: 2px 0;
 }
 #navbar  .nav-link{
@@ -125,6 +133,7 @@ h2 {
 #navbar {
   position: fixed;
   margin-top: 40px;
+  align-items: center;
 }
 #main {
   transition: margin-left .5;
@@ -135,7 +144,7 @@ h2 {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #020202;
   display: block;
   transition: 0.3s;
 }
