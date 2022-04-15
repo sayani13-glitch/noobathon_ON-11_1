@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 	<title>Feedback Form</title>
+     
+	<link rel="stylesheet" href="feedbackstyle.css">
+    <link rel="stylesheet" href="aboutStyle.css">
+
+</head>
+
+<body>	
+    
+              <section class="header">
+                  <nav>
+                      <div class="nav-links" id="navLinks">
+                          <ul>
+                              <li><a href="index.html">HOME</a></li>
+                              <li><a href="about.html">ABOUT</a></li>
+                          </ul>
+                      </div>
+                  </nav>
+                  <div class="text-box">
+                      <h2>Study <span class="o">HUB</span></h2>
+                  </div>
+              </section>
+<fieldset>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			
+			<h1 class="text-center mt-5 font-weight-bold" style="text-align: center; margin:5px;">Feedback Form</h1>
+			<hr class="bg-white">
+			<h6 class="text-center" style="font-size:16px;text-align: center; margin:10px;">Please write your feedback below:</h6>
+			<h3 class="mt-4" style="margin:5px;">How do you rate your overall experience?</h3>
+
+			<form method="POST"  action="success.html">
+				<label class="radio-inline" ><input type="radio" name="experience" value="bad">Bad</label>
+				<label class="radio-inline"><input type="radio" name="experience" value="bad">Average</label>
+				<label class="radio-inline"><input type="radio" name="experience" value="bad">Good</label>
+
+			</div>
+			</div>					
+
+			<div class="row" style="margin-top:10px; font-weight: 600;" >
+				<div class="x"></div>
+				<label class="x" style="margin-top:10px;">Full Name<span>*</span><br>
+					<input type="text" id="text" required="" placeholder="enter your name"></label>
+
+					<label class="x">Email<span>*</span><br>
+					<input type="text" id="text" required="" placeholder="xyz@gmail.com"></label>
+			</div>
+
+			<div class="row">
+				<div class="x"></div>
+				<label class="x">Age<br>
+					<input type="number" id="text"  placeholder="20"></label>
+
+					<label class="x">Phone<span>*</span><br>
+					<input type="number" id="text" required="" placeholder="+91 9223456789"></label>
+			</div>
+
+			<div class="row">
+				<div class="x"></div>
+				<label class="x">Message<span>*</span><br>
+					<textarea id="message" required="" placeholder="Write yor message here" cols="48" rows="5"></textarea></label>
+			</div>
+
+				<div class="row">
+				<div class="x"></div>
+				<button class="btn" style="width:20%;height:5%; position: absolute; margin-left: 10%;border-radius: 20px; color:white; background-color: rgb(52, 117, 230); ">Submit</button>
+			</div>
+			</form>
+</div>
+</fieldset>
+<script src="https://kit.fontawesome.com/4fa2b1e08a.js" crossorigin="anonymous"></script>
+
+</body>
+
+<footer class="foot">
+    <div class="fdiv">
+       <span class="fsp"> FOLLOW US </span>
+       <span class="fsp"> <i class="fa-brands fa-facebook-square"></i></span>
+       <span class="fsp"> <i class="fa-brands fa-instagram"></i></span>
+       <span class="fsp"> <i class="fa-brands fa-twitter-square"></i></span>  
+    </div>
+    
+     <div class="term">
+       <div class="t"> <span  class= "p" style="margin-left: 2px; font-weight: bold;font-size: 18px; ">Contact Us</span>
+         <ul class="tul"> <i class="fa-solid fa-location-dot"></i> &nbsp;National Institute of Technology,Warangal</ul>
+        <ul class="tul"><i class="fa-solid fa-mobile-screen-button">  </i> &nbsp;+91 9872635747</ul>
+        <ul class="tul"> <i class="fa-solid fa-at">  </i> &nbsp;contact@studyHUB.edu</ul>
+        <ul class="tul"><i class="fa-solid fa-comments"></i> &nbsp;Feedback</ul>
+      </div>
+      <div class="t"> <span  class= "p" style="margin-left: 2px; font-weight: bold;font-size: 18px;">Important Links</span>
+        <ul class="tul">Terms</ul>
+       <ul class="tul">Privacy Policy</ul>
+       <ul class="tul"> Cookie Policy</ul>
+       <ul class="tul"> About Us</ul>
+     </div>
+     </div>
+     
+     <div class="d">
+      <span class="xf"> &copy; 2022 StudyHUB.inc</span>
+    </div>
+        
+  </footer>
+</html>

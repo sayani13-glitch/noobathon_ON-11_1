@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BTECH CSE</title>
+  <link href="subjectstyle.css" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <input type="text" id="myText" value="find your course..."><button onclick="myFunction()">Go</button>
+    <nav id="navbar" class="navbar">
+      <a href="javascript:void(0)" id="links" class="closebtn" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></a>
+      
+      <a href="#year1" id="links" >Year 1</a>
+      <a href="#year2" id="links" >Year 2</a>
+      <a href="#year3" id="links" >Year 3</a>
+      <a href="#year4" id="links" >Year 4</a>
+    </nav>
+    
+  </header>
+
+
+  <main id="main">
+    
+    <section id="year1">
+      <h2>YEAR-1</h2>
+      <div class="bb">
+        <div class="box" id="java">
+          <a href="ds.html"> <i class="fa-brands fa-java" style="font-size: 500%;"></i></a>
+          <br>
+          <label class="subnames" for="java">Java</label>
+        </div>
+        <div class="box" id="networking">
+          <i class="fa-solid fa-network-wired" style="font-size: 500%;"></i>
+          <br>
+          <label class="subnames" for="networking">Networking</label>
+      </div>
+        <div class="box" id="database">
+          <i class="fa-solid fa-database" style="font-size: 500%;"></i>
+          <br>
+          <label class="subnames" for="database">Database</label>
+        </div>
+      </div>
+      <section id="year2">
+        <h2>YEAR-1</h2>
+        <div class="bb">
+          <div class="box" id="python">
+            <a href="ds.html"><i class="fa-brands fa-python" style="font-size: 700%;"></i></a>
+            <br>
+            <label class="subnames" for="python">Python</label>
+          </div>
+          <div class="box" id="statistics">
+            <i class="fa-solid fa-chart-line" style="font-size: 500%;"></i>
+            <br>
+            <label class="subnames" for="statistics">Statistics</label>
+        </div>
+          <div class="box" id="machine learning">
+            <i class="fa-solid fa-robot" style="font-size: 500%;"></i>
+            <br>
+            <label class="subnames" for="machine learning">Machine Learning</label>
+          </div>
+        </div>
+        <section id="year3">
+          <h2>YEAR-1</h2>
+          <div class="bb">
+            <div class="box" id="micro processor">
+              <a href="ds.html"> <i class="fa-solid fa-microchip" style="font-size: 500%;"></i></a>
+              <br>
+              <label class="subnames" for="micro processor">Micro Processor</label>
+            </div>
+            <div class="box" id="management theory">
+              <i class="fa-solid fa-people-roof" style="font-size: 500%;"></i>
+              <br>
+              <label class="subnames" for="management theory">Management Theory</label>
+          </div>
+            <div class="box" id="algorithm">
+              <i class="fa-solid fa-file-code" style="font-size: 500%;"></i>
+              <br>
+              <label class="subnames" for="algorithm">Algorithm</label>
+            </div>
+          </div>
+          <section id="year4">
+            <h2>YEAR-1</h2>
+            <div class="bb">
+              <div class="box" id="app aevelopment">
+                <i class="fa-brands fa-android" style="font-size: 500%;"></i>
+                <br>
+                <label class="subnames" for="app aevelopment">App Development</label>
+              </div>
+              <div class="box" id="electronics">
+                <i class="fa-solid fa-plug-circle-bolt" style="font-size: 500%;"></i>
+                <br>
+                <label class="subnames" for="electronics">Electronics</label>
+            </div>
+            <div class="box" id="database">
+              <i class="fa-solid fa-database" style="font-size: 500%;"></i>
+              <br>
+              <label class="subnames" for="database">Database</label>
+            </div>
+            </div>
+          </main>
+  <script src="https://kit.fontawesome.com/4fa2b1e08a.js" crossorigin="anonymous">
+
+  </script>
+  
+  <script>  
+  function toggleNav() {
+    document.getElementById("header").style.width="0";
+    document.getElementById("main").style.marginLeft= "1";
+  }
+  function myFunction() {
+    var x = document.getElementById("myText").value;
+    document.getElementById(x).scrollIntoView({behavior: 'smooth'});
+    document.getElementById(x).style.transform= "scale(1.5)";
+  }
+  </script>
+</body>
+</html>
